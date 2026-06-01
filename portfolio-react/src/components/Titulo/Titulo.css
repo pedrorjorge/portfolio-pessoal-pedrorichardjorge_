@@ -1,0 +1,12 @@
+.titulo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex: 0;
+}
+
+.titulo h1, .titulo h2 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-muted);
+}

@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  color: var(--text-soft);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.94rem;
+  letter-spacing: 0.04em;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--text);
+  transform: translateY(-1px);
+}

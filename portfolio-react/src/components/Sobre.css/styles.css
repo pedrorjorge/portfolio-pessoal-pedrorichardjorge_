@@ -1,0 +1,42 @@
+.sobre-container {
+  width: 90%;
+  max-width: 1000px;
+
+  margin: 80px auto;
+
+  padding: 40px;
+
+  background: rgba(10, 18, 40, 0.95);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 25px;
+
+  color: white;
+
+  line-height: 1.8;
+}
+
+.sobre-container h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sobre-container p {
+  color: #b7b7b7;
+
+  margin-bottom: 20px;
+}
+
+.sobre-container ul {
+  padding-left: 25px;
+
+  color: #d3d3d3;
+}
+
+.sobre-container li {
+  margin-bottom: 10px;
+}

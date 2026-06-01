@@ -1,0 +1,95 @@
+/* ==========================
+   CONTATO
+========================== */
+
+#contato {
+  margin-top: 6rem;
+  padding: 3rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.titulo-contato {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 760px;
+  text-align: left;
+}
+
+/* ==========================
+   CONTAINER DOS LINKS
+========================== */
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 760px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* ==========================
+   CARDS DE CONTATO
+========================== */
+
+.contact-card a {
+  display: flex;
+  align-items: center;
+
+  min-height: 70px;
+
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  border-radius: 18px;
+
+  padding: 0 1.2rem;
+
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.contact-card a:hover {
+  border-color: rgba(139, 92, 246, 0.5);
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.3),
+    0 0 15px rgba(139, 92, 246, 0.15);
+
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  #contato {
+    padding: 2.5rem 1.2rem 3rem;
+  }
+
+  .contact-card {
+    gap: 1rem;
+  }
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 2rem 0;
+
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
