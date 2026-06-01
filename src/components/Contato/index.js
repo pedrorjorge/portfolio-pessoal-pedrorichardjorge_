@@ -12,13 +12,13 @@ export const Contato = () => {
             <a
                 href="https://www.linkedin.com/in/pedrorichardjorge/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 >🔗 LinkedIn</a
             >
             <a
                 href="https://github.com/pedrorjorge"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 >🐙 GitHub</a
             >
         </div>
