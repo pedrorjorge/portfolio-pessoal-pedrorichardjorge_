@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       <div className="page-shell">
         <header className="topbar">
-          <div className="brand">Portfolio</div>
+          <div className="brand">
+            <title>Portfolio - Pedro Richard Jorge</title>
+          </div>
           <Nav />
           <Logo />
         </header>
