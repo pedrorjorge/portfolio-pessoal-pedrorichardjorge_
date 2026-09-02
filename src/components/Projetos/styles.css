@@ -1,10 +1,12 @@
 #projetos {
-  padding: 5rem 2rem;
+  padding: 5rem 0;
   background: #020617;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .titulo-projetos {
@@ -13,7 +15,8 @@
   font-weight: 700;
   margin-bottom: 2.5rem;
   width: 100%;
-  max-width: 1200px;
+  padding: 0 4rem;
+  box-sizing: border-box;
   text-align: left;
 }
 
@@ -24,8 +27,8 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   width: 100%;
-  max-width: 1200px;
-  padding-bottom: 1.5rem;
+  padding: 0 2rem 1.5rem 2rem;
+  box-sizing: border-box;
   scroll-snap-type: x mandatory;
 }
 
@@ -89,7 +92,7 @@
 .project-tag {
   background: rgba(91, 33, 182, 0.35);
   color: #8b5cf6;
-  padding: 8px 14px; /* Ajustado levemente para encaixar melhor nas tags */
+  padding: 8px 14px;
   border-radius: 999px;
   font-size: .85rem;
   font-weight: 600;
@@ -145,11 +148,16 @@
 
 @media (max-width: 768px) {
   #projetos {
-    padding: 3rem 1rem;
+    padding: 3rem 0;
   }
 
   .titulo-projetos {
     text-align: center;
+    padding: 0 1rem;
+  }
+
+  .project-grid {
+    padding: 0 1rem 1rem 1rem;
   }
 
   .project-card {
