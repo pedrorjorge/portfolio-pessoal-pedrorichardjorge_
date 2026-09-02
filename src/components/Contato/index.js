@@ -7,7 +7,7 @@ export const Contato = () => {
         <div class="titulo-contato"><span></span>Contato</div>
             <div class="contact-card">
             <a href="mailto:Pedrorichardjorge1@hotmail.com"
-                >✉️ Email: pedrorichardjorge1@hotmail.com
+                >✉️ Email: jorge.pedro.richard@gmail.com
             </a>
             <a
                 href="https://www.linkedin.com/in/pedrorichardjorge/"

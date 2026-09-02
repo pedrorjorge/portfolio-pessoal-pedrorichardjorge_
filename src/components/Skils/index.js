@@ -19,12 +19,13 @@ export const Skils = () => {
             <h3>Banco de Dados</h3>
               <span className="badge">MongoDB</span>
               <span className="badge">SQL</span>
+              <span className="badge">PostgreSQL</span>
+
 
             <h3>Ferramentas</h3>
               <span className="badge">Git</span>
               <span className="badge">GitHub</span>
               <span className="badge">Postman</span>
-              <span className="badge">VS Code</span>
               <span className="badge">Linux</span>
             <h3>Metodologias</h3>
               <span className="badge">Scrum</span>

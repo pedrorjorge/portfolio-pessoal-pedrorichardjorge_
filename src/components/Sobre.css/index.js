@@ -6,41 +6,43 @@ export const Sobre = () => {
       <h2>Quem eu sou</h2>
 
       <p>
-        Sou Pedro Richard Jorge, estudante de Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos e técnico em Desenvolvimento de Sistemas pela ETEC Paulino Botelho.
-
-        Tenho experiência profissional em suporte de TI, atuando na manutenção de computadores, resolução de problemas técnicos e apoio a sistemas internos.
-
+        Sou Pedro Richard Jorge, estudante do 3º semestre de Análise e Desenvolvimento de Sistemas pelo IFSP campus São Carlos e técnico em Desenvolvimento de Sistemas pela ETEC Paulino Botelho.
       </p>
 
       <p>
-        Atualmente direciono meus estudos para desenvolvimento Full Stack, utilizando tecnologias como React, JavaScript, Node.js, MongoDB e APIs REST.
+        Possuo vivência prática em desenvolvimento web full stack e experiência prévia em suporte de TI. Atualmente, atuo como Desenvolvedor Full Stack, focando na construção e manutenção de aplicações web.
+      </p>
+
+      <p>
+        Direciono meus estudos e projetos para tecnologias modernas, utilizando no dia a dia React, JavaScript, Node.js, Python, APIs REST e bancos de dados relacionais e não-relacionais (PostgreSQL e MongoDB).
       </p>
 
       <h2>Formação e Objetivo</h2>
 
       <p>
-        Minha formação técnica em Desenvolvimento de Sistemas me proporcionou uma base sólida em programação, desenvolvimento de aplicações e resolução de problemas. Atualmente curso Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos, onde aprofundo conhecimentos em engenharia de software, desenvolvimento web, banco de dados e metodologias ágeis.
+        Minha formação técnica me deu uma base sólida em programação e lógica. No IFSP, aprofundo meus conhecimentos em engenharia de software, arquitetura web e metodologias ágeis (Scrum e Kanban).
       </p>
 
       <p>
-        Meu objetivo é conquistar uma oportunidade de estágio em desenvolvimento de software, contribuindo com dedicação, aprendizado contínuo e aplicação prática dos conhecimentos adquiridos durante minha formação.
+        Busco uma oportunidade de estágio em desenvolvimento de software para aplicar minha experiência prática, colaborar com equipes multidisciplinares e crescer profissionalmente.
       </p>
 
       <h2>Experiência e Projetos</h2>
 
       <ul>
         <li>
-          <strong>Experiência Profissional:</strong> 
-          <br></br>
-          Estagiário de TI na Bianchini, atuando com suporte técnico, manutenção de equipamentos e apoio a sistemas internos.<br></br>
-          Experiência em atendimento ao cliente e resolução de problemas, desenvolvendo comunicação e pensamento analítico.
+          <strong>Experiência em Destaque:</strong> 
+          <br />
+          <em>Desenvolvedor Full Stack (Voluntário) na CoCriarse:</em> Desenvolvimento e manutenção de páginas e aplicações web com HTML5, CSS3, JavaScript e metodologias ágeis, atuando em equipe na entrega de funcionalidades.
+          <br /><br />
+          <em>Estágio em TI na Bianchini:</em> Suporte técnico a usuários, manutenção de equipamentos e apoio em sistemas internos.
         </li>
 
         <li>
-          <strong>Projetos em Destaque:</strong> <br></br>
-          Desenvolvimento de API REST com Node.js e MongoDB.<br></br>
-          Projetos de análise de dados utilizando Python, Pandas e Matplotlib.<br></br>
-          Projetos voltados para lógica de programação e resolução de problemas.<br></br>
+          <strong>Projetos em Destaque:</strong> <br />
+          <strong>Aplicação Web Full-Stack:</strong> Sistema integrado com front-end em React, API REST em Node.js/Express e banco de dados PostgreSQL.<br />
+          <strong>API de Vendas:</strong> Desenvolvimento de rotas REST e CRUD completo utilizando Node.js e MongoDB, testado via Postman.<br />
+          <strong>Portfólio Pessoal:</strong> Página desenvolvida em React com layout responsivo, componentização e estruturação semântica.
         </li>
       </ul>
 
