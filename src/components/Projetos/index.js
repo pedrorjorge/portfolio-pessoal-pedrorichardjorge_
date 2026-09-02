@@ -11,7 +11,7 @@ export const Projetos = () => {
         <article className="project-card">
           <div className="project-preview">
             <img
-              src="img/fullstack_image.jpg"
+              src="img/frontend.png"
               alt="Aplicação Web Full-Stack"
             />
           </div>

@@ -1,19 +1,21 @@
-/* ===== SEÇÃO ===== */
-
 #projetos {
-  padding: 5rem 4rem;
+  padding: 5rem 2rem;
   background: #020617;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo-projetos {
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
 }
-
-/* ===== GRID ===== */
 
 .project-grid {
   display: flex;
@@ -21,7 +23,9 @@
   gap: 2rem;
   flex-wrap: nowrap;
   overflow-x: auto;
-  padding-bottom: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 1.5rem;
   scroll-snap-type: x mandatory;
 }
 
@@ -34,9 +38,8 @@
   border-radius: 999px;
 }
 
-/* ===== CARD ===== */
-
 .project-card {
+  min-width: 330px;
   width: 330px;
   background: #0f172a;
   border: 1px solid rgba(255,255,255,0.08);
@@ -46,6 +49,8 @@
   box-shadow:
     0 10px 25px rgba(0,0,0,.4),
     inset 0 1px 0 rgba(255,255,255,.05);
+  flex-shrink: 0;
+  scroll-snap-align: start;
 }
 
 .project-card:hover {
@@ -54,8 +59,6 @@
     0 15px 40px rgba(0,0,0,.5),
     0 0 20px rgba(124, 58, 237, .2);
 }
-
-/* ===== IMAGEM ===== */
 
 .project-preview {
   width: 100%;
@@ -70,16 +73,12 @@
   display: block;
 }
 
-/* ===== CONTEÚDO ===== */
-
 .project-content {
   padding: 1.6rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-
-/* ===== TAGS ===== */
 
 .project-tags {
   display: flex;
@@ -90,31 +89,25 @@
 .project-tag {
   background: rgba(91, 33, 182, 0.35);
   color: #8b5cf6;
-  padding: 10px 18px;
+  padding: 8px 14px; /* Ajustado levemente para encaixar melhor nas tags */
   border-radius: 999px;
   font-size: .85rem;
   font-weight: 600;
 }
 
-/* ===== TÍTULO ===== */
-
 .project-content h3 {
   color: #f8fafc;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin: .5rem 0;
 }
 
-/* ===== TEXTO ===== */
-
 .project-content p {
   color: #94a3b8;
-  font-size: 1.2rem;
-  line-height: 1.8;
-  min-height: 180px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  min-height: 140px;
 }
-
-/* ===== BOTÃO VER MAIS ===== */
 
 .project-link {
   display: inline-flex;
@@ -138,33 +131,35 @@
   transform: scale(1.05);
 }
 
-/* ===== GITHUB ===== */
-
 .project-link-github {
   color: #c4b5fd;
   text-decoration: underline;
   font-size: 1rem;
   margin-top: .5rem;
+  width: fit-content;
 }
 
 .project-link-github:hover {
   color: #ddd6fe;
 }
 
-/* ===== RESPONSIVO ===== */
-
 @media (max-width: 768px) {
   #projetos {
     padding: 3rem 1rem;
   }
 
+  .titulo-projetos {
+    text-align: center;
+  }
+
   .project-card {
     width: 100%;
-    max-width: 350px;
+    min-width: 280px;
+    max-width: 320px;
   }
 
   .project-content h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .project-content p {
